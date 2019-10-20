@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">AAD Team 52 Animation Challenge</string>
+
+    <string name="title_activity_splash_screen">SplashScreen</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+    <string name="title_activity_login">Login</string>
+    <string name="title_activity_insta_post">InstaPost</string>
+    <string name="title_activity_help">Help</string>
+</resources>
