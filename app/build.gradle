@@ -20,6 +20,17 @@ android {
 }
 
 dependencies {
+	
+	//please change them to androidx if they are not working
+	/*compile 'com.android.support:design:27.0.2'
+	compile fileTree(dir: 'libs', include: ['*.jar'])
+	compile 'com.android.support:support-v4:27.0.2'
+	compile 'com.android.support:appcompat-v7:27.0.2'
+	//compile 'com.android.support:support-v13:27.1.0'
+	compile'com.android.support.constraint:constraint-layout:1.1.2'*/
+    compile 'com.facebook.android:facebook-login:+'
+	
+	
     implementation fileTree(dir: 'libs', include: ['*.jar'])
     implementation 'androidx.appcompat:appcompat:1.1.0'
     implementation 'androidx.constraintlayout:constraintlayout:1.1.3'
