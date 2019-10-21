@@ -12,6 +12,8 @@ import android.widget.Adapter;
 import java.util.ArrayList;
 import java.util.List;
 
+import android.content.*;
+
 public class Dashboard extends AppCompatActivity {
 
     @Override
@@ -35,4 +37,16 @@ public class Dashboard extends AppCompatActivity {
         recyclerView.setAdapter(adapter);
         recyclerView.setLayoutManager(new LinearLayoutManager(this));
     }
+
+	@Override
+	public void onBackPressed()
+	{
+		Intent home_intent = new Intent(Dashboard.this, Login.class);
+		startActivity(home_intent);
+		overridePendingTransition(R.anim.animate_dashboard_enter, R.anim.animate_login_leave);
+		finish();
+		// TODO: Implement this method
+		
+	}
+	
 }

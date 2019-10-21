@@ -10,7 +10,7 @@
 	android:padding="10dp">
 
 	<LinearLayout
-		android:id="@+id/container1"
+		android:id="@+id/container2"
 		android:layout_width="match_parent"
 		android:layout_height="match_parent"
 		android:layout_centerInParent="false"
@@ -71,6 +71,7 @@
 			android:layout_marginTop="10dp"
 			android:background="@drawable/button"
 			android:text="Log In"
+			
 			android:onClick="logIn"
 			android:textColor="#000000"/>
 

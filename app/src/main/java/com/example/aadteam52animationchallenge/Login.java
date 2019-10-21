@@ -10,17 +10,18 @@ import android.widget.Button;
 import android.widget.EditText;
 import android.widget.RelativeLayout;
 import android.widget.TextView;
-
 import android.widget.*;
 import android.content.res.*;
 import android.transition.*;
 import android.content.*;
+import android.view.*;
+import android.app.*;
 
 import androidx.appcompat.app.AppCompatActivity;
-
+ 
 public class Login extends AppCompatActivity
 {
-
+	
     AnimationDrawable anim;
     AssetManager am;
 
@@ -42,8 +43,8 @@ public class Login extends AppCompatActivity
     protected void onCreate(Bundle savedInstanceState)
 	{
         super.onCreate(savedInstanceState);
-
-        setContentView(R.layout.activity_login);
+		
+		 setContentView(R.layout.activity_login);
 		framelayout = findViewById(R.id.sceneRoot);
 
 		//initTe
@@ -176,8 +177,13 @@ public class Login extends AppCompatActivity
 
 //Use the logIn onclick button to move from Login to MainActivity
 	public void logIn(View v){
-		Intent  intent = new Intent(Login.this,Dashboard.class);
-		v.getContext().startActivity(intent);
+		Intent intent=new Intent(Login.this,Dashboard.class);
+		
+		startActivity(intent);
+		overridePendingTransition(R.anim.login_slide_in_right,R.anim.login_slide_out_right);
+		
+		
+		finish();
 		//please make sure your setcontentView is set to the right Layout.
 
 	}
