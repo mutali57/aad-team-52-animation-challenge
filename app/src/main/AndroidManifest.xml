@@ -9,27 +9,30 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
+      
         <activity
             android:name=".Help"
             android:label="@string/title_activity_help"
-            android:theme="@style/AppTheme.NoActionBar"></activity>
+            android:theme="@style/Theme.AppCompat.NoActionBar" />
+      
         <activity
             android:name=".InstaPost"
             android:label="@string/title_activity_insta_post"
-            android:theme="@style/AppTheme.NoActionBar" />
-		<activity
+            android:theme="@style/Theme.AppCompat.NoActionBar" />
+      
+        <activity
             android:name=".Login"
-			android:theme="@style/AppTheme"
-			android:screenOrientation="portrait"
+			      android:theme="@style/AppTheme"
+			      android:screenOrientation="portrait"
             android:label="@string/title_activity_login"
-		>
-			<intent-filter>
-				<action android:name="android.intent.action.MAIN" />
+            android:theme="@style/Theme.AppCompat.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
 
-				<category android:name="android.intent.category.LAUNCHER" />
+                <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
-
-		</activity>
+        </activity>
+      
 <!--        <activity-->
 <!--            android:name=".SplashScreen"-->
 <!--            android:configChanges="orientation|keyboardHidden|screenSize"-->
@@ -41,15 +44,16 @@
 <!--                <category android:name="android.intent.category.LAUNCHER" />-->
 <!--            </intent-filter>-->
 <!--        </activity>-->
-        <activity android:name=".Dashboard">
-          
-        </activity>
+      
+        <activity android:name=".Dashboard" />
+      
         <meta-data
             android:name="preloaded_fonts"
             android:resource="@array/preloaded_fonts" />
-		<meta-data
-			android:name="com.facebook.sdk.ApplicationId"
-			android:value="@string/facebook_app_id" />
+      
+        <meta-data
+          android:name="com.facebook.sdk.ApplicationId"
+          android:value="@string/facebook_app_id" />
     </application>
 
 </manifest>
