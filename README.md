@@ -9,13 +9,13 @@
 ### To Do
 
 - [ ] Splash Activity
-- [ ] Login Activity
+- [x] Login Activity
 - [x] Dashboard Activity
 - [ ] Post Activity
-- [ ] Help Activity
+- [ ] App Icon and Name
 
-#Participants
+### Roles
 
-  Team Lead: Kyle Mabaso
-  Splash Page: Flavio
-  Login: Mutali
+1 Team Lead (Dashboard): Kyle Mabaso
+2 Splash Page: Flavio
+3 Login: Mutali
