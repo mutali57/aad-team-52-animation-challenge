@@ -16,6 +16,6 @@
 
 ### Roles
 
-1 Team Lead: Kyle Mabaso
+1 Team Lead (Dashboard): Kyle Mabaso
 2 Splash Page: Flavio
 3 Login: Mutali
